@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../img/header.jpg");
+    height: 150vh;
+    background-size: cover;
+    color: white;
+}
+
+.menuEncabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0% 10%;
+    padding-top: 2%;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding: 2%;
+}
+
+h1 {
+    width: 40%;
+    margin-left: 10%;
+    padding-bottom: 4%;
+}
+
+.divCentral {
+    background-color: #fff;
+    margin: 0 8%;
+}
+
+.masSobreNosotros{
+    font-weight: 350;
+    text-align: center;
+    padding: 3%;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% 0;
+}
+
+.titulosDivCentral{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% 0;
+} 
+
+.parrafosDivCentral{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% 0;
+    text-align: center;
+}
+
+.tituloMain{
+    font-weight: 350;
+    text-align: center;
+    padding: 3%;
+}
+
+main {
+    background-color: #fff;
+}
+
+.divMain{
+    display: flex;
+    margin: 0 8%;
+}
+
+.divpropiedad {
+    border: solid #E6E6E6;
+    background-color: #F5F4F4;
+    margin: 0 1%;
+}
+
+.divpropiedad img{
+    width: 100%;
+}
+
+.divAmbientes {
+    width: 10%;
+    margin: 0 15%;
+    display: flex;
+}
+
+.divpropiedad h3 {
+    margin: 6% 4%;
+}
+.divpropiedad h4 {
+    margin: 6% 4%;
+}
+
+.divpropiedad p {
+    margin: 6% 4%;
+}
+
+.precio {
+    color: #73b220;
+}
+
+.divAmbientes img {
+    margin: 30%;
+}
+
+.btnVerPropiedad {
+    background-color: #df8716;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5%;
+    margin: 5% 30%;
+}
+
+.btnVerTodas {
+    background-color:#73b220;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 1%;
+    margin: 3% 2% 5% 84%;
+}
+
+.contacto {
+    background-image: url(../img/encuentra.jpg);
+    background-size: cover;
+    height: 55vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding:15% 10% 5% 20%;
+}
+
+.textoContacto {
+    margin-left: 0%;
+}
+
+.btnContactanos {
+    background-color: #df8716;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 1%;
+    margin: 5% 80% 0% 0%;
+}
+
+.seccionFinal {
+    background-color: #fff;
+    margin: 0 8%;
+    justify-content: center;
+}
+
+div.titulares > h2 {
+    font-weight: 350;
+    margin-top: 5%;
+}
+
+.titulares {
+    display: flex;
+    justify-content: space-around;   
+}
+
+#divBlogTestimonio {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 8%;
+    width: 80%;
+    height: 30%;
+}
+
+.imagenesBlog img {
+    width: 100%;
+  
+}
+
+.comentariosBlog {
+    margin: 0 2% 0 1%;
+    font-size: smaller;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+div.blog1> p {
+    margin: 5% 0;
+    font-size: smaller;
+    text-align: justify;
+}
+
+div.blog2> p {
+    margin: 5% 0;
+    font-size: smaller;
+    text-align: justify;
+}
+
+.barra {
+    border: solid #73b220;
+    width: 50%;
+}
+
+span {
+    color: #df8716;
+}
+
+.testimonio {
+    background-color: #71b11f;
+    color: #fff;
+    border: solid #71b11f;
+    border-radius: 3%;
+    margin: 0 5% 10% 2%;
+    padding: 2% 5% 3%;
+    height: 40vh;
+    width: 100%;
+    font-size: medium;
+}
+
+#pTestimonio {
+    font-weight: 300;
+} 
+
+footer {
+    background-color: #323232;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2% 0;
+    font-size: small;
+}
+
