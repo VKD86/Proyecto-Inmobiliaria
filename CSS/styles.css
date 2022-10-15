@@ -31,6 +31,11 @@ li {
     padding: 2%;
 }
 
+.enlaces {
+    color: #fff;
+    text-decoration: none;
+}
+
 h1 {
     width: 40%;
     margin-left: 10%;
